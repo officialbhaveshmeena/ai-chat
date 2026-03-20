@@ -14,7 +14,7 @@ services:
       - REDIS_URL=redis://redis:6379
       - MONGO_URI=mongodb://ai-mongo:27017/chatdb
       - QDRANT_URL=http://qdrant:6333
-      - GEMINI_API_KEY=AIzaSyDC9ZE3afsvMSSY6MuC_BplQB1OEySoWKQ
+      - GEMINI_API_KEY=<key>
     depends_on:
       - redis
       - mongo
